@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration</title>
+    <link rel="stylesheet" href="css/reg.css">
+</head>
+
+<body>
+    <!-- navgator bar -->
+   <ul class="unav">
+        <li class="lnav"><a href="../home.html">Home</a></li>
+        <li class="lnav"><a href="../resum/index.html">Resum</a></li>
+        <li class="lnav"><a href="../bitmap/bitmap.html">BitMap</a></li>
+        <li class="lnav"><a href="../login/Login.html">Login</a></li>
+        <li class="lnav"><a href="register.html">Registration</a></li>
+   </ul>
+
+    <form>
+        <header>Registration Form </header>
+        <section>
+            <header>Account Information </header>
+            <input type="text" name="username" maxlength="10" placeholder="UserName*" required>
+            <input type="password" name="password" placeholder="Password*" required>
+            <input type="password" name="confirmPassword" placeholder="Confirm Password*" required>
+            <input type="number" name="creditCard" maxlength="14" placeholder="Credit Card No*" required>
+        </section>
+
+        <section>
+            <header>Personal Information </header>
+            <input type="text" name="name" placeholder="Name*" required>
+            <br>Date of Birth*<br>
+            <input type="date" name="date" required>
+            <br>Favorite Color<br>
+            <input type="color" name="color">
+            <br>Profile Photo(s)<br>
+            <input type="file" name="photo">
+            <input type="text" name="browser" placeholder="Favorite Browser">
+        </section>
+
+        <section>
+            <header>Company Information</header>
+            <input type="number" name="employees" placeholder="No of Employees">
+            <br>Estimated Revenue<br>
+            <input type="range" name="revenue">
+        </section>
+
+        <section>
+            <header>Contact Information</header>
+            <input type="email" name="email" placeholder="Email Address(es)*" required>
+            <input type="tel" name="phone" placeholder="Phone Number">
+            <input type="url" name="website" placeholder="Website URL">
+        </section>
+
+        <footer>
+            <input type="submit" value="Signup" id="signupBtn">
+            <input type="reset" value="Cancel" id="signupBtn">
+       </footer>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,136 @@
+body {
+    background-image: url(../img/bg.png);
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%; 
+    background-size: cover;
+
+}
+
+form {
+    margin: 20px auto;
+    width: 600px;
+    padding: 30px 25px;
+    background: white;
+    border: 1px solid #c4c4c4;
+}
+
+section {
+    margin: 20px auto;
+    width: 400px;
+    padding: 30px 25px;
+    background: white;
+    border: 1px solid #c4c4c4;
+}
+  
+header {
+    margin: -28px -25px 25px;
+    padding: 15px 25px;
+    line-height: 30px;
+    font-size: 25px;
+    font-weight: 300;
+    color: #ADADAD;
+    text-align:center;
+    background: #f7f7f7;   
+}
+  
+input {
+    width: 385px;
+    height: 50px;
+    margin-bottom: 25px;
+    padding-left:10px;
+    font-size: 15px;
+    background: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#signupBtn {
+    width: 30%;
+    height: 50px;
+    padding: 0;
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    background: #f0776c;
+    border: 0;
+    border-radius: 5px;
+    outline:0;
+}
+  
+ footer {
+    text-align: center;
+
+}
+
+input[type="submit"] {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+input[type="reset"] {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+input[type="submit"]:hover {background-color: #3e8e41}
+input[type="reset"]:hover {background-color: #3e8e41}
+
+input[type="submit"]:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+input[type="reset"]:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.unav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.lnav {
+  float: left;
+}
+
+.lnav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.lnav a:hover {
+  background-color: #111;
+}
+
+  

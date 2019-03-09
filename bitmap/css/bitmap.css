@@ -1,0 +1,48 @@
+body {
+    background-image: url("../img/bg.png");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%; 
+    background-size: cover;
+}
+.img{
+    position: absolute;
+    width: 588px;
+    height: 423px;
+    left: 30%;
+    top: 20%;
+
+}
+
+.unav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.lnav {
+  float: left;
+}
+
+.lnav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.lnav a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}

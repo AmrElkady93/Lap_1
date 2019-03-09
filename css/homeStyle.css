@@ -1,0 +1,101 @@
+body {
+ 	background-image: url("../img/bg.png");
+ 	background-color: #cccccc;
+ 	background-repeat: no-repeat;
+ 	background-position: center;
+ 	height: 100%; 
+ 	background-size: cover;
+} 
+.img{
+	position: absolute;
+    width: 200px; /*the image width*/
+    height: 200px; /*the image height*/
+    left: 50%;
+    top: 50%;
+    margin-left: -50px; /*half the image width*/
+    margin-top: -50px; /*half the image height*/
+    border-radius: 50%;
+}
+.marquee{
+	width: 30 px;
+	height: 30 px;
+	font-size: 60px;
+	font-family: sans-serif;
+	font-style: italic ;
+	color: #333;
+}
+.text{
+	font-size: 30px;
+	position: absolute;
+	left: 43%;
+	top: 69%;
+	font-family: 'Playball',cursive;
+    font-size: 60px;
+    line-height: 1.0;
+    font-weight: 900;
+    color: #333;
+
+}
+.unav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.lnav {
+  float: left;
+}
+
+.lnav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.lnav a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+.tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-size: 12px;
+}
+
+.tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+.text:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
